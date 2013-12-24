@@ -1,0 +1,3 @@
+spartak_projet_homepage:
+    pattern:  /t/{name}
+    defaults: { _controller: SpartakProjetBundle:Projet:index }

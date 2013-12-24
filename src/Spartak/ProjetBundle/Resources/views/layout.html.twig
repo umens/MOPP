@@ -1,0 +1,29 @@
+{% extends '::base.html.twig' %}
+
+{% block title %}{{ parent() }}{% endblock %}
+
+{% block stylesheets %}
+
+  {{ parent() }}
+
+
+
+{% endblock %}
+
+{% block body %}
+
+    <div>
+
+    	{% block content %}{% endblock %}
+
+    </div>
+
+{% endblock %}
+
+{% block javascripts %}
+
+  {{ parent() }}
+
+
+
+{% endblock %}
