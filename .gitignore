@@ -36,6 +36,10 @@
 ehthumbs.db
 Thumbs.db
 
+# My File #
+################
+sftp-config.json
+
 # Symfony File #
 ################
 /web/bundles/

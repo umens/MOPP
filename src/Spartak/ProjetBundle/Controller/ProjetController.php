@@ -6,8 +6,8 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class ProjetController extends Controller
 {
-    public function indexAction($name)
+    public function indexAction()
     {
-        return $this->render('SpartakProjetBundle:Projet:index.html.twig', array('name' => $name));
+        return $this->render('SpartakProjetBundle:Projet:index.html.twig', array('name' => $this->getUser()->getUsername()));
     }
 }
